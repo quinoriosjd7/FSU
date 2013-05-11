@@ -23,7 +23,7 @@ if(inputOne >=8)
 {
 alert("wrong");    
 }
-var age = parseInt * dogYears;
+var age = humanAge * dogYears;
 alert("Sparky the pitbull's age is " + age);
 console.log("Sparky the pitbull's age is " + age);
 
