@@ -9,8 +9,24 @@ var humanAge = 1;
 var dogYears = 7;
 
 //Sparky's age//
+var input = prompt("Enter Sparky's age")
+if(input <=6)
+{
+alert("wrong!");    
+}
+if(input ==7)
+{
+alert("correct!");    
+}
+if(input >=8)
+{
+alert("wrong");    
+}
 var age = humanAge * dogYears;
-console.log(age);
+alert("Sparky the pitbull's age:" + age);
+console.log("Sparky the pitbull's age" + age);
+
+
 
 
 
