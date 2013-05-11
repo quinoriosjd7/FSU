@@ -23,7 +23,7 @@ if(input >=8)
 alert("wrong");    
 }
 var age = humanAge * dogYears;
-alert("Sparky the pitbull's age is" + age);
+alert("Sparky the pitbull's age is " + age);
 console.log("Sparky the pitbull's age" + age);
 
 
