@@ -9,17 +9,17 @@ var humanAge = 1;
 var dogYears = 7;
 
 //Sparky's age//
-var inputOne = prompt("Enter Sparky's age");
-var inputTwo = prompt("Enter your age");
-if(inputOne <=6)
+var input = prompt("Enter Sparky's age");
+
+if(input <=6)
 {
 alert("wrong!");    
 }
-if(inputOne ==7)
+if(input ==7)
 {
 alert("correct!");    
 }
-if(inputOne >=8)
+if(input >=8)
 {
 alert("wrong");    
 }
