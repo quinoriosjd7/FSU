@@ -2,20 +2,21 @@
 
 //How many times I eat meals in a week//
 var mealsAday = prompt("How many times do I eat in a week?");
-//if user types in number more than 21, "wrong" will appear then the option to retry the question
+//if user types in a number more higher or lower than 21, "wrong" will appear then the option to retry the question
 if (mealsAday >21 || mealsAday <21)
 {
     console.log("Wrong!");
     alert("Wrong!");
     var mealsAday = prompt("How many times do I eat in a week?");
 }
-
+//prompts user for a number entry while user enters a letter or word//
 do{
     alert("Please enter a number");
     console.log("Pleas enter a number");
     var mealsAday = prompt("How many times do I eat in a week?")
 }while (isNaN(mealsAday));
 
+//alerts user that entry is wrong when he/she enters a number higher or lower than 21//
 do{
     alert("Wrong!");
     console.log("Wrong!");
