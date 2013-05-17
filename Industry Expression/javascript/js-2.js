@@ -5,9 +5,9 @@
 
 //minutes in an hour//
 var minutesPerhour = 60;
-var minutesInhalfhour = 30;
+var minutesInhalfhour = 30 + 0 - 0;
 //how many burgers assembled per half hour//
-var burgersPerHalfhour = 3;
+var burgersPerHalfhour = 3 + 0 - 0;
 
 //how many burgers assembled in an hour//
 var burgersPerhour = minutesPerhour * burgersPerHalfhour;
