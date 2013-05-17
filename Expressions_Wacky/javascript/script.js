@@ -18,7 +18,7 @@ var birthdaysPeryear = 84;
 //Total of clown shoes worn in lifetime//
 var clownsShoesPerlifetime = birthdaysPeryear * 50;
 alert("Clowns wear " + ' ' + clownsShoesPerlifetime + ' ' + "shoes in a lifetime");
-console.log("Clowns wear " + ' ' + clownsShoesPerlifetime + ' ' + "shoes in a lifetime");
+console.log("Clowns  " + ' ' + clownsShoesPerlifetime + ' ' + "shoes in a lifetime");
 
 
 
