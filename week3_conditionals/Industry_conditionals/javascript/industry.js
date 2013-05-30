@@ -5,21 +5,22 @@ var totalArtWebsites = 5;
 var minArtWebsites = 3;
 
 //maximum total of websites to receive bonus
-var maxArtWebsites = 5;
+var maxArtWebsites = 5+3;
 
 //if client receives this total of websites you will receive extra pay
 var extraPay = minArtWebsites+maxArtWebsites;
 
 //prompts employee to input number of Art websites developed//
-var WebsitesFinishedTypeIn = prompt("How many Websites completed");
+var WebsitesFinishedTypeIn = prompt("How many Websites completed?");
 
 //if employee inputs any number ranging from 8 or more they will receive an alert congratulating them on a bonus received//
-if(WebsitesFinishedTypeIn ==8)
+if(WebsitesFinishedTypeIn >=8 && WebsitesFinishedTypeIn <=12)
 {
     alert("Congratulations you receive a bonus!");
     var extraPay
-    console.log("Congratulations you receive a bonus!");
-    do{WebsitesFinishedTypeIn = prompt("How many Websites completed");continue;}while(isNaN(WebsitesFinishedTypeIn) == true);}
+    console.log("Congratulations you receive a bonus!");}
+ 
+//if employee types in "100" or a number above it they will be alerted about the suspicious amount//   
 if(WebsitesFinishedTypeIn >=100)
 {
     alert("No way you could've finished so many");
@@ -32,6 +33,21 @@ if(WebsitesFinishedTypeIn >=100)
         alert("Sorry, no bonus for you!");
         console.log("Sorry, no bonus for you!");
 }
+//While employee continues to type in a letter or word the prompt will loop and ask for a number, if they enter the number "8" or above they will receive their bonus//
+{
+do{WebsitesFinishedTypeIn = prompt("How many Websites completed? Please enter a number");continue;}while(isNaN(WebsitesFinishedTypeIn) == true);}
+
+if(isNaN(WebsitesFinishedTypeIn && WebsitesFinishedTypeIn >=8) == false)
+{
+    alert("Thank you for typing in a number, congrats on your bonus");
+    console.log("Thank you for typing in a number, congrats on your bonus");}//While employee continues to type in a letter or word the prompt will loop and ask for a number, if they enter the number "7" or below they will not receive their bonus//if(isNaN(WebsitesFinishedTypeIn && WebsitesFinishedTypeIn <=7))
+{
+        alert("Thank you for typing in a number, unfortunately no bonus for you");
+        console.log("Thank you for typing in a number, unfortunately no bonus for you");
+    }
+
+
+
 
 //document.write("<br/>");
 //feedback to employee//
