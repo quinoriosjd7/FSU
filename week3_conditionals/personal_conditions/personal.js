@@ -11,10 +11,10 @@ var maximumAge = 24;
 var angusBurger = minimumAge;
 
 var clientAgeTypeIn = prompt("Old enough to eat an Angus burger?");
-if(kidAge >= 13){
+if(clientAgeTypeIn >= 13){
     alert("Enjoy!");
     var angusBurger;
-}if(kidAge <= 12){
+}if(clientAgeTypeIn <= 12){
         alert("Sorry, you can't eat this!");
         console.log("Sorry, you can't eat this!");
     
