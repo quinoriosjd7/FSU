@@ -2,7 +2,7 @@
 
 
 //age of kid
-var kidAge = 20;
+var kidAge = 8;
 //minimum age to try an angus burger
 var minimumAge = 12;
 //maximum age to eat an angus burger
