@@ -40,10 +40,12 @@ do{WebsitesFinishedTypeIn = prompt("How many Websites completed? Please enter a 
 if(isNaN(WebsitesFinishedTypeIn && WebsitesFinishedTypeIn >=8) == false)
 {
     alert("Thank you for typing in a number, congrats on your bonus");
-    console.log("Thank you for typing in a number, congrats on your bonus");}//While employee continues to type in a letter or word the prompt will loop and ask for a number, if they enter the number "7" or below they will not receive their bonus//if(isNaN(WebsitesFinishedTypeIn && WebsitesFinishedTypeIn <=7))
+    console.log("Thank you for typing in a number, congrats on your bonus");}//While employee continues to type in a letter or word the prompt will loop and ask for a number, if they enter the number "7" or below they will not receive their bonus//
+    
+    if(isNaN(WebsitesFinishedTypeIn && WebsitesFinishedTypeIn <=7) == false)
 {
-        alert("Thank you for typing in a number, unfortunately no bonus for you");
-        console.log("Thank you for typing in a number, unfortunately no bonus for you");
+        alert("Please void that last message,Thank you for typing in a number, unfortunately no bonus for you");
+        console.log("Please void that last message,Thank you for typing in a number, unfortunately no bonus for you");
     }
 
 
@@ -55,4 +57,7 @@ if(WebsitesFinishedTypeIn >=8)
    {
     document.write("Good job! On to the next projects.");
     }
-    
+if(WebsitesFinishedTypeIn <=7)
+{
+document.write("Keep working");    
+}
