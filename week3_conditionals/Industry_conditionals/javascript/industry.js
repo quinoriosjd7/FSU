@@ -1,4 +1,7 @@
-//amount of art websites due//    May 23 2013
+//Jorge Quinones Rios May 23 2013, Industry conditionals//
+
+
+//amount of art websites due//    
 var totalArtWebsites = 5;
 
 //amount of reasonable websites to proceed with future projects
