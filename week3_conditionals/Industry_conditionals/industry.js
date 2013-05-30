@@ -17,3 +17,5 @@ if(WebsitesFinishedTypeIn >= 8) {
         alert("Sorry, no bonus for you!");
         console.log("Sorry, no bonus for you!");
 }
+if(alert=="Bonus!");
+   {document.write("Good job! On to the next projects.")}
