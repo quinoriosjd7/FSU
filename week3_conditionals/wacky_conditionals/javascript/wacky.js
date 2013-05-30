@@ -8,7 +8,7 @@ var clownShosInayear = clownShosInamonth * 12;
 var toeInfections = clownShosInayear - 1;
 
 var clownsToeInfections = prompt("How many toe infections for a clown in a year?");
-if(clownsToeInfections >= 11) {
+if(clownsToeInfections >= 11 || clownsToeInfections >10) {
     alert("Yes!");
     console.log("Yes!");    
     
