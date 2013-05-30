@@ -19,5 +19,9 @@ else{
         alert("Nope!");
         console.log("Nope!");
         document.write("Incorrect");
-}{
-do{clownsToeInfections = prompt("How many toe infections for a clown in a year?");continue;}while(isNaN(clownsToeInfections) == true);}    
+}/*{
+//do{clownsToeInfections = prompt("How many toe infections for a clown in a year?");continue;}while(isNaN(clownsToeInfections) == true);}
+//else if(isNaN(clownsToeInfections) == false);
+//{
+//    clownsToeInfections;
+//}*/
