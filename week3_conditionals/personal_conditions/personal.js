@@ -1,3 +1,6 @@
+//Jorge Quinones Rios May 25, 2013 Personal conditionals//
+
+
 //age of kid
 var kidAge = 8;
 //minimum age to try an angus burger
