@@ -17,7 +17,7 @@ if(clientAgeTypeIn >= 13){
 }if(clientAgeTypeIn <= 12){
         alert("Sorry, you can't eat this!");
         console.log("Sorry, you can't eat this!");
-    
+ {do{clientAgeTypeIn = prompt("Old enough to eat an Angus burger?");continue;}while(isNaN(clientAgeTypeIn) == true);}    
 }
 
 {do{clientAgeTypeIn = prompt("Old enough to eat an Angus burger?");continue;}while(isNaN(clientAgeTypeIn) == true);}
