@@ -16,8 +16,8 @@ if(clownsToeInfections >= 11 && clownsToeInfections <20) {
 
 }
 else{
-        alert("Nope!");
-        console.log("Nope!");
+        alert("Wrong");
+        console.log("Wrong");
         document.write("Incorrect");
 }{
 do{clownsToeInfections = prompt("How many toe infections for a clown in a year?");continue;}while(isNaN(clownsToeInfections) == true);}
