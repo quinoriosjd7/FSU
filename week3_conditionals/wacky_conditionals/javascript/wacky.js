@@ -10,9 +10,10 @@ var toeInfections = clownShosInayear - 1;
 var clownsToeInfections = prompt("How many toe infections for a clown in a year?");
 if(clownsToeInfections >= 11) {
     alert("Yes!");
-    console.log("Yes!");
+    console.log("Yes!");    
     
-    }else{
+}else{
         alert("Nope!");
         console.log("Nope!");
-}
+}{
+do{clownsToeInfections = prompt("How many toe infections for a clown in a year?");continue;}while(isNaN(clownsToeInfections) == true);}    
