@@ -5,7 +5,7 @@ var totalArtWebsites = 5;
 var minArtWebsites = 3;
 
 //maximum total of websites to receive bonus
-var maxArtWebsites = 5+3;
+var maxArtWebsites = 5+3 || 2*4;
 
 //if client receives this total of websites you will receive extra pay
 var extraPay = minArtWebsites+maxArtWebsites;
