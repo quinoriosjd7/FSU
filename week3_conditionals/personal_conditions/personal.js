@@ -20,4 +20,12 @@ if(kidAge >= 13){
     
 }
 {do{clientAgeTypeIn = prompt("Old enough to eat an Angus burger?");continue;}while(isNaN(clientAgeTypeIn) == true);}
-
+if(isNaN(clientAgeTypeIn) >=13 == true){
+    alert("great! enjoy");
+    console.log("great! enjoy");
+}
+if(isNaN(clientAgeTypeIn) == false)
+{
+    alert("nope");
+    console.log("nope");
+}
