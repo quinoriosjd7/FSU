@@ -12,7 +12,14 @@ if(clownsToeInfections >= 11 || clownsToeInfections >10) {
     alert("Yes!");
     console.log("Yes!");
     document.write("Correct");
-    
+
+if(clownsToeInfections >13 && clownsToeInfections <50)
+{
+    alert("cut that foot off");
+    console.log("cut that foot off");
+    document.write("cut that foot off");
+    var clownsToeInfections;
+}
 }else{
         alert("Nope!");
         console.log("Nope!");
