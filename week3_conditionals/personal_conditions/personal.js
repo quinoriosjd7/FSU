@@ -2,7 +2,7 @@
 
 
 //age of kid
-var kidAge = 8;
+var kidAge = 10;
 //minimum age to try an angus burger
 var minimumAge = 12;
 //maximum age to eat an angus burger
@@ -19,6 +19,7 @@ if(kidAge >= 13){
         console.log("Sorry, you can't eat this!");
     
 }
+
 {do{clientAgeTypeIn = prompt("Old enough to eat an Angus burger?");continue;}while(isNaN(clientAgeTypeIn) == true);}
 if(isNaN(clientAgeTypeIn) >=13 == true){
     alert("great! enjoy");
