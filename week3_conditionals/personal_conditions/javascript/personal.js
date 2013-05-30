@@ -24,4 +24,4 @@ if(clientAgeTypeIn >= 13){
 if(isNaN(clientAgeTypeIn) >=13 == true){
     alert("great! enjoy");
     console.log("great! enjoy");
-}
+}if else{clientAgeTypeIn;}
