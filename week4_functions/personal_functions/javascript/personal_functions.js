@@ -6,7 +6,7 @@ var height = 7;
 //minimum height to get on plane ride
 var minimumHeight = 5;
 //maximum age to get on plane ride
-var maximumAge = 60;
+var maximumAge = 80;
 //if client is this old he may get on plane ride
 var permission = minimumHeight * 1;
 
