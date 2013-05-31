@@ -2,7 +2,7 @@
 
 
 //amount of times singers choke in a week//
-var singersChokeInaweek = 0;
+var singersChokeInaweek = 1*5;
 //amount of times singers choke in a month//
 var singersChokeInamonth = 1;
 //amount of times singers choke per concert//
