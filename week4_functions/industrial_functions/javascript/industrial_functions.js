@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 function numberOfcssFiles(){
     var employeeInfo = prompt("Css files missing?");
     var cssFilesNeeded = 5;
@@ -5,7 +12,11 @@ function numberOfcssFiles(){
     var attemptingCSSfiles = 1;
     var goal = cssFilesNeeded + attemptingCSSfiles;
    
-    console.log(goal);}
+    console.log("this is the total goal"+ ' ' + goal);}
+   numberOfcssFiles();
+   numberOfcssFiles();
+   numberOfcssFiles();
+   numberOfcssFiles();
    numberOfcssFiles();
 
 
