@@ -7,7 +7,11 @@
     if(employeeInfo >=5){
         alert("wrong");
         console.log("wrong");
+      do{employeeInfo = prompt("Css files missing?");continue;}while(isNaN(employeeInfo) == true);}else{
+        alert("try again");
+        console.log("try again");
       do{employeeInfo = prompt("Css files missing?");continue;}while(isNaN(employeeInfo) == true);}
+      
     
 
 //block of code to be repeated to obtain information from employee//
