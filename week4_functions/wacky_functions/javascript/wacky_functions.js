@@ -29,6 +29,7 @@ function stress(){
     singersStressLevel * stressedVocalChords
     alert("now thats stress");
     console.log("now that's stress");
+    document.write("now that's stress");
 }
 
 stress();
