@@ -17,9 +17,12 @@ if(howOld <=60)
         {
             alert("Enjoy!");
             console.log("Enjoy");
-}else{alert("Sorry, can't ride!");
-}
-function granted(){
-    alert("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");
-    console.log("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");}
-granted();}
+}do{howOld = prompt("Old enough to get on?");continue;}while(isNaN(howOld) == true);}
+            
+else{alert("Sorry, can't ride!");}
+
+//function granted(){
+//    alert("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");
+//    console.log("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");}
+//
+//granted();
