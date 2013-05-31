@@ -4,7 +4,7 @@
 //amount of times singers choke in a week//
 var singersChokeInaweek = 1*5;
 //amount of times singers choke in a month//
-var singersChokeInamonth = 1;
+var singersChokeInamonth = 1+5*6;
 //amount of times singers choke per concert//
 var chokesPerconcert = singersChokeInamonth * 5;
 //toe infections in a year
