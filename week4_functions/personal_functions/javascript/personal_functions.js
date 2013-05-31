@@ -1,3 +1,6 @@
+//Jorge Quinones Rios may 30 2013, Personal functions//
+
+
 //boy's height
 var height = 7;
 //minimum height to get on boat ride
@@ -8,12 +11,15 @@ var maximumAge = 60;
 var permission = minimumHeight * 1;
 
 var howOld = prompt("Old enough to get on?");
-if(howOld >= 5 && howOld ==60)
+if(howOld <=60)
+{
+    if(howOld >=5)
         {
             alert("Enjoy!");
             console.log("Enjoy");
 }else{alert("Sorry, can't ride!");
 }
 function granted(){
-    (minimumHeight * 1)
-    console.log(minimumHeight);}
+    alert("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");
+    console.log("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");}
+granted();}
