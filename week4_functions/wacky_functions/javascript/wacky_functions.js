@@ -6,7 +6,7 @@ var singersChokeInaweek = 1*5;
 //amount of times singers choke in a month//
 var singersChokeInamonth = 1+5*6;
 //amount of times singers choke per concert//
-var chokesPerconcert = singersChokeInamonth * 5;
+var chokesPerconcert = singersChokeInamonth * 5 +5 *2;
 //toe infections in a year
 var stressedVocalChords = singersChokeInamonth - 1;
 //promt asking user for stress days singers might go through//
