@@ -21,8 +21,8 @@ if(howOld <=60)
             
 else{alert("Sorry, can't ride!");}
 
-//function granted(){
-//    alert("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");
-//    console.log("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");}
-//
-//granted();
+function granted(){
+    alert("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");
+    console.log("correct age ranges from" + ' '  + minimumHeight * 1 + ' ' + "and beyond");}
+
+granted();
