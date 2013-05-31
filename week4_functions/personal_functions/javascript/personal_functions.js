@@ -3,11 +3,11 @@
 
 //boy's height
 var height = 7;
-//minimum height to get on boat ride
+//minimum height to get on plane ride
 var minimumHeight = 5;
-//maximum age to get on boat ride
+//maximum age to get on plane ride
 var maximumAge = 60;
-//if client is this old he may get on ride
+//if client is this old he may get on plane ride
 var permission = minimumHeight * 1;
 
 var howOld = prompt("Old enough to get on?");
